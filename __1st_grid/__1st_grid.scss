@@ -1,0 +1,35 @@
+.__1st_grid{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid1{
+    margin-top: 70px;
+    display: grid;
+    width: 70%;
+    grid-template: repeat(6,1fr)/1fr 1fr;
+}
+.item1{
+    grid-area: 1/1/span 6/2;
+    font-size: 25px;
+}
+.item2,.item3,.item4,.item5,.item6,.item7{
+    font-size: 27px;
+}
+.grid2{
+    margin-top: 60px;
+    display: grid;
+    width: 70%;
+    grid-template: repeat(3,1fr)/repeat(5,1fr);
+    justify-items: center;
+}
+.item_11{
+    grid-area: 3/1/-1/span 5;
+    padding: 0;
+    font-size: 27px;
+}
+.item_1,.item_2,.item_3,.item_4,.item_5,.item_6,.item_7,.item_8,.item_9,.item_10{
+    padding: 0;
+}

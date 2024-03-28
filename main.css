@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 70px 0 100px 0;
+  font-size: 55px;
+}
+
+.videopick {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+}
+
+.videopick > img {
+  max-width: 90%;
+}
+
+.__1st_grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid1 {
+  margin-top: 70px;
+  display: grid;
+  width: 70%;
+  grid-template: repeat(6, 1fr)/1fr 1fr;
+}
+
+.item1 {
+  grid-area: 1/1/span 6/2;
+  font-size: 25px;
+}
+
+.item2, .item3, .item4, .item5, .item6, .item7 {
+  font-size: 27px;
+}
+
+.grid2 {
+  margin-top: 60px;
+  display: grid;
+  width: 70%;
+  grid-template: repeat(3, 1fr)/repeat(5, 1fr);
+  justify-items: center;
+}
+
+.item_11 {
+  grid-area: 3/1/-1/span 5;
+  padding: 0;
+  font-size: 27px;
+}
+
+.item_1, .item_2, .item_3, .item_4, .item_5, .item_6, .item_7, .item_8, .item_9, .item_10 {
+  padding: 0;
+}
+
+.biggrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  margin-top: 60px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template: repeat(10, 1fr)/1fr 1fr;
+  row-gap: 30px;
+  justify-items: center;
+  align-items: start;
+  padding: 0;
+  margin: 0;
+  min-width: 88%;
+}
+
+.itemm1, .itemm2, .itemm3, .itemm4, .itemm5, .itemm6, .itemm7, .itemm8 {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  color: #8594AB;
+}
+
+p {
+  color: black;
+}
+
+.itemm1 {
+  grid-area: 1/1/span 3/2;
+}
+
+.itemm2 {
+  grid-area: 1/2/span 2/-1;
+}
+
+.itemm3 {
+  grid-area: 4/1/span 2/2;
+}
+
+.itemm4 {
+  grid-area: 3/2/span 3/-1;
+}
+
+.itemm5 {
+  grid-area: 6/1/span 3/2;
+}
+
+.itemm6 {
+  grid-area: 6/2/span 2/-1;
+}
+
+.itemm7 {
+  grid-area: 9/1/span 2/2;
+}
+
+.itemm8 {
+  grid-area: 8/2/span 3/-1;
+}
+
+.grid4 {
+  display: grid;
+  grid-template: repeat(2, 1fr)/2fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: start;
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+  min-width: 72%;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.box1 {
+  grid-area: 1/1/2/2;
+  font-size: 28px;
+}
+
+.box3 {
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.slide {
+  margin-left: 20px;
+  display: flex;
+  max-width: 90%;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.slide > img {
+  max-width: 80%;
+}
+
+.grid5 {
+  margin-top: 60px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 2fr 1fr;
+  max-width: 84%;
+  justify-items: center;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+.room1, .room4, .room7 {
+  color: #8594AB;
+  font-size: 16px;
+}
+
+.room2, .room5, .room8 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.real_footer {
+  background-color: #8594AB;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template: 2fr 1fr 2fr 1fr 1fr/repeat(3, 1fr);
+  min-width: 90%;
+  justify-items: center;
+  align-items: center;
+}
+
+.footitem1 {
+  color: white;
+  text-align: center;
+  grid-area: 2/2/3/3;
+}
+
+.footitem2 {
+  min-width: 100%;
+  grid-area: 4/1/5/span 3;
+  border-width: 2px;
+}
+
+.footitem3 {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  grid-area: 5/1/-1/span 3;
+}
+
+p {
+  color: white;
+}
+
+.real_head {
+  background-color: #8594AB;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.head_grid {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(8, 1fr);
+  justify-items: center;
+  align-items: start;
+  padding: 0;
+  margin: 0;
+  min-width: 95%;
+  margin-top: 50px;
+}
+
+.headitem1, .headitem2, .headitem3, .headitem4 {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.headitem1 {
+  grid-area: 1/3/2/4;
+}
+
+.headitem2 {
+  grid-area: 1/4/2/5;
+}
+
+.headitem3 {
+  grid-area: 1/5/2/6;
+}
+
+.headitem4 {
+  grid-area: 1/6/2/7;
+}
+
+.headitem5 {
+  width: 90%;
+  border-color: white;
+  grid-area: 2/1/3/span 8;
+}
+
+.headitem6 {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  width: 20%;
+  grid-area: 3/1/-1/span 8;
+  color: white;
+  padding: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+@media (max-width: 1230px) {
+  .slide {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */

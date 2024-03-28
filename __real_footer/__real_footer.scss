@@ -1,0 +1,36 @@
+.real_footer{
+    
+    background-color: #8594AB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.footer_grid{
+    display: grid;
+    grid-template: 2fr 1fr 2fr 1fr 1fr/ repeat(3,1fr);
+    min-width: 90%;
+    justify-items: center;
+    align-items: center;
+}
+.footitem1{
+    color: white;
+    text-align: center;
+    grid-area: 2/2/3/3;
+}
+.footitem2{
+    min-width: 100%;
+    grid-area: 4/1/5/span 3;
+    border-width: 2px;
+}
+.footitem3{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    grid-area: 5/1/-1/span 3;
+}
+
+p{
+    color:white;
+}

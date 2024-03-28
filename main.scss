@@ -1,0 +1,22 @@
+body{
+    
+    margin: 0;
+    font-family: Roboto;
+}
+li { list-style-type: none; }
+
+
+
+@import "__header/__header";
+@import "__1st_grid/__1st_grid";
+@import "__biggrid/__biggrid";
+@import "__footer/__footer";
+@import "__real_footer/__real_footer";
+@import "__real_head/__real_head";
+
+@media (max-width:1230px){
+    .slide{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
